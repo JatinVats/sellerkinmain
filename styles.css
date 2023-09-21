@@ -1276,14 +1276,29 @@ line-height: 20px;
 
 /* *LETTER START* */
 .appLetter{
+    
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-bottom: 30px;
+  
 
 
 }
+
+
+
+#amitImage{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    height: 350px;
+}
+
+
+
 
 .appLetter-image{
   
@@ -1646,9 +1661,11 @@ line-height: 20px;
   }
 
   .appAfterLetterHeading2{
-    margin-top: 40px;
-    color: white;
+    margin-top: 90px;
+    margin-bottom: 100px ;
+    color: var(--color-text);
     width: 1240px;
+    text-align: center;
   }
 
 
@@ -1721,7 +1738,7 @@ line-height: 20px;
 }
 .list h2 {
   color: #fff;
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: 1px;
   margin-bottom: 10px;
 }
@@ -1730,7 +1747,7 @@ line-height: 20px;
   position: relative;
 }
 .list ul li {
-
+font-weight: 400;
 margin: 8rem 1rem;
 font-size: 34px;
   position: relative;
